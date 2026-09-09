@@ -29,6 +29,9 @@ Clonar el repositorio:
 ```bash
 git clone https://github.com/sarco-rdf/Boveda-personal-linux.git
 cd Boveda-personal-linux
+mv boveda.py ~/
+chmod 700 ~/boveda.py
+cd ~/
 ```
 
 Instalar las dependencias:
