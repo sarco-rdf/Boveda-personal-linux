@@ -32,6 +32,8 @@ cd Boveda-personal-linux
 mv boveda.py ~/
 chmod 700 ~/boveda.py
 cd ~/
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 Instalar las dependencias:
